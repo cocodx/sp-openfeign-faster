@@ -12,3 +12,6 @@ feign:
         connectionTimeout: 10000
         readTimeout: 10000
         loggerLevel: basic
+
+  httpclient:
+    enabled: true
