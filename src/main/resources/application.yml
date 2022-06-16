@@ -15,3 +15,11 @@ feign:
 
   httpclient:
     enabled: true
+
+  compression:
+    request:
+      enabled: true #开启请求数据的压缩功能
+      mime-types: text/xml,application/xml,application/json # 压缩类型
+      min-request-size: 1024 # 最小压缩值标准，当数据大于 1024 才会进行压缩
+    response:
+      enabled: true #开启响应数据压缩功能
