@@ -10,3 +10,5 @@ feign:
         loggerLevel: basic
 ``` 
 
+openfeign 官方文档：https://docs.spring.io/spring-cloud-openfeign/docs/current/reference/html/  
+
